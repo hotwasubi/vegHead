@@ -115,3 +115,9 @@
   #recipePic{
 	border-radius: 4%;
   }
+
+  @media (max-width: 786px) {
+    #recipeSearchCard{
+      max-width: fit-content;
+    }
+  }
