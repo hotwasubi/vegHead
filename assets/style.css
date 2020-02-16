@@ -92,7 +92,7 @@
 	opacity: 1;
   }
   .recipePage{
-	background-image: linear-gradient(to bottom right, green,orange, yellow);
+	background-image: linear-gradient(to top right, green,orange, yellow);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	min-height: 100vh; 
@@ -118,10 +118,9 @@
 
   @media (max-width: 786px) {
     .recipePage{
-      background-image: repeating-linear-gradient(green,orange,yellow);
-      background-size: cover;
-      min-height: 100vh;
+      background-color: #66bb6a;
     }
+
     body{
       margin: 0;
       padding: 0;
